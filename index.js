@@ -1,9 +1,9 @@
 require('colors');
 const axios = require('axios'),
-  fs = require('fs'),
-  randomUseragent = require('random-useragent'),
-  readline = require('readline'),
-  { QuickDB } = require('quick.db');
+fs = require('fs'),
+randomUseragent = require('random-useragent'),
+readline = require('readline'),
+{ QuickDB } = require('quick.db');
 
 const db = new QuickDB();
 const generatedUsernamesKey = 'generated_usernames';
